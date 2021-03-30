@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04349C626131CF000D90C88 /* EditTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04349C526131CF000D90C88 /* EditTodoViewController.m */; };
 		E0A3BED82611BC90007BEAB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BED72611BC90007BEAB6 /* AppDelegate.m */; };
-		E0A3BEDB2611BC90007BEAB6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BEDA2611BC90007BEAB6 /* SceneDelegate.m */; };
 		E0A3BEDE2611BC90007BEAB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BEDD2611BC90007BEAB6 /* ViewController.m */; };
 		E0A3BEE12611BC90007BEAB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A3BEDF2611BC90007BEAB6 /* Main.storyboard */; };
 		E0A3BEE32611BC92007BEAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A3BEE22611BC92007BEAB6 /* Assets.xcassets */; };
 		E0A3BEE62611BC92007BEAB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A3BEE42611BC92007BEAB6 /* LaunchScreen.storyboard */; };
 		E0A3BEE92611BC92007BEAB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BEE82611BC92007BEAB6 /* main.m */; };
+		E0A3BEF82611D52A007BEAB6 /* AddToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BEF72611D52A007BEAB6 /* AddToDoViewController.m */; };
+		E0A3BEFC2611E8C4007BEAB6 /* ToDoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BEFB2611E8C4007BEAB6 /* ToDoDetailsViewController.m */; };
+		E0A3BEFE26120C2E007BEAB6 /* todo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0A3BEFD26120C2E007BEAB6 /* todo.plist */; };
+		E0A3BF01261276B2007BEAB6 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A3BF00261276B2007BEAB6 /* ToDo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E04349C426131CF000D90C88 /* EditTodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditTodoViewController.h; sourceTree = "<group>"; };
+		E04349C526131CF000D90C88 /* EditTodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTodoViewController.m; sourceTree = "<group>"; };
+		E04349C726133AAA00D90C88 /* UpdateToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateToDo.h; sourceTree = "<group>"; };
 		E0A3BED32611BC8F007BEAB6 /* todoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A3BED62611BC90007BEAB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0A3BED72611BC90007BEAB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0A3BED92611BC90007BEAB6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E0A3BEDA2611BC90007BEAB6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		E0A3BEDC2611BC90007BEAB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0A3BEDD2611BC90007BEAB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0A3BEE02611BC90007BEAB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +34,16 @@
 		E0A3BEE52611BC92007BEAB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A3BEE72611BC92007BEAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0A3BEE82611BC92007BEAB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0A3BEEF2611CF85007BEAB6 /* toDoEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = toDoEnum.h; sourceTree = "<group>"; };
+		E0A3BEF02611D18B007BEAB6 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		E0A3BEF62611D52A007BEAB6 /* AddToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToDoViewController.h; sourceTree = "<group>"; };
+		E0A3BEF72611D52A007BEAB6 /* AddToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToDoViewController.m; sourceTree = "<group>"; };
+		E0A3BEF92611E0E4007BEAB6 /* ToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		E0A3BEFA2611E8C4007BEAB6 /* ToDoDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoDetailsViewController.h; sourceTree = "<group>"; };
+		E0A3BEFB2611E8C4007BEAB6 /* ToDoDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoDetailsViewController.m; sourceTree = "<group>"; };
+		E0A3BEFD26120C2E007BEAB6 /* todo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = todo.plist; sourceTree = "<group>"; };
+		E0A3BEFF26124F2F007BEAB6 /* AddToDo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToDo.h; sourceTree = "<group>"; };
+		E0A3BF00261276B2007BEAB6 /* ToDo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +78,6 @@
 			children = (
 				E0A3BED62611BC90007BEAB6 /* AppDelegate.h */,
 				E0A3BED72611BC90007BEAB6 /* AppDelegate.m */,
-				E0A3BED92611BC90007BEAB6 /* SceneDelegate.h */,
-				E0A3BEDA2611BC90007BEAB6 /* SceneDelegate.m */,
 				E0A3BEDC2611BC90007BEAB6 /* ViewController.h */,
 				E0A3BEDD2611BC90007BEAB6 /* ViewController.m */,
 				E0A3BEDF2611BC90007BEAB6 /* Main.storyboard */,
@@ -72,6 +85,19 @@
 				E0A3BEE42611BC92007BEAB6 /* LaunchScreen.storyboard */,
 				E0A3BEE72611BC92007BEAB6 /* Info.plist */,
 				E0A3BEE82611BC92007BEAB6 /* main.m */,
+				E0A3BEEF2611CF85007BEAB6 /* toDoEnum.h */,
+				E0A3BEF02611D18B007BEAB6 /* Enums.h */,
+				E0A3BEF62611D52A007BEAB6 /* AddToDoViewController.h */,
+				E0A3BEF72611D52A007BEAB6 /* AddToDoViewController.m */,
+				E0A3BEF92611E0E4007BEAB6 /* ToDo.h */,
+				E0A3BEFA2611E8C4007BEAB6 /* ToDoDetailsViewController.h */,
+				E0A3BEFB2611E8C4007BEAB6 /* ToDoDetailsViewController.m */,
+				E0A3BEFD26120C2E007BEAB6 /* todo.plist */,
+				E0A3BEFF26124F2F007BEAB6 /* AddToDo.h */,
+				E0A3BF00261276B2007BEAB6 /* ToDo.m */,
+				E04349C426131CF000D90C88 /* EditTodoViewController.h */,
+				E04349C526131CF000D90C88 /* EditTodoViewController.m */,
+				E04349C726133AAA00D90C88 /* UpdateToDo.h */,
 			);
 			path = todoapp;
 			sourceTree = "<group>";
@@ -135,6 +161,7 @@
 			files = (
 				E0A3BEE62611BC92007BEAB6 /* LaunchScreen.storyboard in Resources */,
 				E0A3BEE32611BC92007BEAB6 /* Assets.xcassets in Resources */,
+				E0A3BEFE26120C2E007BEAB6 /* todo.plist in Resources */,
 				E0A3BEE12611BC90007BEAB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,10 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A3BEFC2611E8C4007BEAB6 /* ToDoDetailsViewController.m in Sources */,
+				E0A3BEF82611D52A007BEAB6 /* AddToDoViewController.m in Sources */,
 				E0A3BEDE2611BC90007BEAB6 /* ViewController.m in Sources */,
+				E04349C626131CF000D90C88 /* EditTodoViewController.m in Sources */,
 				E0A3BED82611BC90007BEAB6 /* AppDelegate.m in Sources */,
 				E0A3BEE92611BC92007BEAB6 /* main.m in Sources */,
-				E0A3BEDB2611BC90007BEAB6 /* SceneDelegate.m in Sources */,
+				E0A3BF01261276B2007BEAB6 /* ToDo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
